@@ -1,7 +1,6 @@
 {
     "advanced": true,
     "audio": "pipewire",
-    "bootloader": "systemd-bootctl",
     "custom-commands": [
         "cd /home/devel; git clone https://aur.archlinux.org/paru.git",
         "chown -R devel:devel /home/devel/paru",
