@@ -38,13 +38,10 @@
     "ntp": true,
     "packages": [
         "firefox",
-        "zsh",
-        "ananicy-cpp",
-        "nohang",
-        "auto-cpufreq"
+        "zsh"
 
     ],
-    "plugin": "https://raw.githubusercontent.com/Torxed/archinstall-aur/main/archinstall_aur/__init__.py",
+    "plugin": ["https://raw.githubusercontent.com/Torxed/archinstall-aur/main/archinstall_aur/__init__.py"],
     "profile": {
         "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/desktop.py"
     },
