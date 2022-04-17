@@ -1,0 +1,57 @@
+{
+    "advanced": true,
+    "audio": "pipewire",
+    "bootloader": "systemd-bootctl",
+    "custom-commands": [
+        "cd /home/devel; git clone https://aur.archlinux.org/paru.git",
+        "chown -R devel:devel /home/devel/paru",
+        "usermod -aG docker devel"
+    ],
+    "debug": false,
+    "desktop-environment": "gnome",
+    "disk_layouts": null,
+    "filesystem": "btrfs",
+    "gfx_driver": "Nvidia (proprietary)",
+    "harddrives": [
+        "/dev/sdb"
+    ],
+    "hostname": "dbbv",
+    "kernels": [
+        "linux",
+        "linux-zen"
+    ],
+    "keyboard-layout": "us",
+    "mirror-region": {
+        "Brazil": {
+            "http://archlinux.c3sl.ufpr.br/$repo/os/$arch": true,
+            "http://archlinux.pop-es.rnp.br/$repo/os/$arch": true,
+            "http://br.mirror.archlinux-br.org/$repo/os/$arch": true,
+            "http://linorg.usp.br/archlinux/$repo/os/$arch": true,
+            "http://mirror.ufscar.br/archlinux/$repo/os/$arch": true
+        }
+    },
+    "mount_point": null,
+    "nic": {
+        "NetworkManager": true,
+        "nic": "Use NetworkManager (necessary to configure internet graphically in GNOME and KDE)"
+    },
+    "ntp": true,
+    "packages": [
+        "firefox",
+        "zsh",
+        "ananicy-cpp",
+        "nohang",
+        "auto-cpufreq"
+
+    ],
+    "plugin": "https://raw.githubusercontent.com/Torxed/archinstall-aur/main/archinstall_aur/__init__.py",
+    "profile": {
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/desktop.py"
+    },
+    "script": "guided",
+    "silent": false,
+    "swap": true,
+    "sys-encoding": "utf-8",
+    "sys-language": "en_UK",
+    "timezone": "America/Sao_Paulo"
+}
