@@ -12,7 +12,6 @@
     "disk_layouts": null,
     "filesystem": "btrfs",
     "gfx_driver": "Nvidia (proprietary)",
-    "hostname": "dbbv",
     "kernels": [
         "linux",
         "linux-zen"
