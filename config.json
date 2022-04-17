@@ -12,9 +12,6 @@
     "disk_layouts": null,
     "filesystem": "btrfs",
     "gfx_driver": "Nvidia (proprietary)",
-    "harddrives": [
-        "/dev/sdb"
-    ],
     "hostname": "dbbv",
     "kernels": [
         "linux",
